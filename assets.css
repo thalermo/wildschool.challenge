@@ -1,0 +1,77 @@
+.title {
+    padding-top: 50px;
+    padding-bottom: 0;
+    padding-left: 50px;
+}
+
+h2 {
+
+    font-family: 'Montagu Slab', serif;
+    font-weight: 500;
+    font-size: 56px;
+    color: #1b4047;
+    letter-spacing: 3px;
+}
+
+table {
+    margin-left: 50px;
+    margin-top: 2%;
+    width: 75%;
+    height: 60%;
+    /* border-style: double; */
+    border-width: 3px;
+    border-color: #e99665;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    color: #1b4047;
+  
+
+
+}
+
+table th {
+    text-align: center;
+    background-color: #1b4047;
+    padding: 4px 30px 4px 8px;
+    font-weight: 400;
+    /* border-style: double; */
+    border-width: 3px;
+    border-color: #e99665;
+    color: #e5e1d5;
+    letter-spacing: 2px;
+
+
+    font-family: 'Montagu Slab', serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: #e99665;
+    letter-spacing: 2px;
+
+
+}
+
+table td {
+    /* border-style: double; */
+    border-width: 3px;
+    border-color: #e99665;
+    padding: 1% 0 1% 0;
+    text-align: center;
+
+
+    ;
+
+
+}
+
+/* every other table row changing color */
+table tr:nth-child(odd) td {
+    background-color: #e7edf0;
+
+}
+
+/*.table {
+border:  #1b4047;
+border-style: solid;
+border-size:
+
+}*/

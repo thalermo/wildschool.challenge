@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: #e5e1d5;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+#navBar {
+    background-color: #1b4047;
+    text-align: right;
+    padding-top: 40px;
+    color: #e99665;
+    letter-spacing: 4px;
+    height: 80px;
+
+}
+
+li,
+a {
+    margin-right: 30px;
+    font-family: 'Montagu Slab', serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    height: 70px;
+    display: inline-block;
+    list-style: none;
+}
+
+.btn:hover {
+    color: #e9cc48;
+    cursor: pointer;
+}
+
+.btn {
+    color: #e99665;
+    cursor: pointer;
+}
+
+.logo {
+    background-color: white;
+    position: absolute;
+    height: 100px;
+    width: 150px;
+
+}

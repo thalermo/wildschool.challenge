@@ -1,0 +1,110 @@
+
+.title {
+    padding-top: 50px;
+    padding-bottom: 0;
+    padding-left: 50px;
+}
+
+h2 {
+
+    font-family: 'Montagu Slab', serif;
+    font-weight: 500;
+    font-size: 56px;
+    color: #1b4047;
+    letter-spacing: 3px;
+}
+
+/* Royalty Pictures */
+
+.boxPix {
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    
+    position: relative;
+    width: 20%;
+    height: 470px;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #1b4047; 
+    
+    /* frame */
+
+    /* border-style: double; */
+    border-width: 5px;
+    border-color: #e99665;
+    /* pictures in the box */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Pictures in the box  */
+
+.pic {
+
+    width: 242px;
+    height: 415px;
+    margin: 20px;
+    opacity: 0.9;
+    /* border-style: double; */
+    /* border-width: 5px; */
+    /* border-color: #e99665; */
+
+}
+
+/* Div with P Text */
+.sub {
+    /* width: 20%; */
+    /* background-color: ; */
+    /* text-align: center; */
+    /* position: absolute; */
+    /* left: 204px; */
+    /* bottom: 120px; */
+
+}
+
+.sub_P {
+    width: 20%;
+    /* background-color: ; */
+    text-align: center;
+    /* position: absolute; */
+    /* left: 750px; */
+    /* bottom: 120px; */
+
+}
+
+.sub_Q {
+    width: 20%;
+    /* background-color: ; */
+    text-align: center;
+    /* position: absolute; */
+    /* right: 242px; */
+    /* bottom: 120px; */
+}
+
+/* p */
+
+.king {
+    color: #1b4047;
+    line-height: 2em;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    letter-spacing: 2px;
+    /* text-shadow:5px 2px 5px #e99665 */
+}
